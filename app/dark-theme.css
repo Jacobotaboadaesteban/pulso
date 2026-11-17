@@ -1,0 +1,851 @@
+:root {
+  color-scheme: dark;
+  --bg: #101017;
+  --surface: #171721;
+  --ink: #e9e4ef;
+  --muted: #9c93ab;
+  --line: #2b2736;
+  --green: #ac92ce;
+  --sage: #2d253b;
+  --orange: #d89c85;
+}
+body {
+  background: #101017;
+  color: #e9e4ef;
+}
+.life-theme .sidebar {
+  background: #12121b;
+  border-color: #272432;
+  width: 215px;
+}
+.life-theme .main-wrap {
+  margin-left: 215px;
+}
+.life-theme .brand {
+  color: #e8dceb;
+}
+.life-theme .brand-symbol {
+  background: #60456f;
+}
+.life-theme .brand-symbol span {
+  background: #e6ad98;
+}
+.life-theme .brand-dot {
+  color: #e0a48e;
+}
+.life-theme .workspace {
+  border-color: #2c2638;
+  background: #1a1724;
+}
+.life-theme .workspace > span {
+  background: #34263f;
+  color: #c2a6d6;
+}
+.life-theme .workspace small,
+.life-theme .workspace > svg {
+  color: #81708f;
+}
+.life-theme .workspace b {
+  color: #c3b4d0;
+}
+.life-theme .nav-label {
+  color: #695b78;
+}
+.life-theme .sidebar nav button {
+  color: #9a89ad;
+}
+.life-theme .sidebar nav button.active {
+  background: #2d233c;
+  color: #dec9f0;
+}
+.life-theme .nav-count {
+  background: #4b345e;
+  color: #d9beed;
+}
+.life-theme .connection-nav {
+  color: #9580a9;
+}
+.life-theme .connection-nav.selected {
+  background: #30213e;
+  color: #d3b6e8;
+}
+.life-theme .personal-note {
+  background: linear-gradient(135deg, #2a1e35, #201b2e);
+  border-color: #3a2948;
+}
+.life-theme .personal-note b {
+  color: #bea7d0;
+}
+.life-theme .personal-note p {
+  color: #7e658f;
+}
+.life-theme .small-spark {
+  color: #c198b5;
+}
+.life-theme .profile {
+  border-color: #30223b;
+}
+.life-theme .profile b {
+  color: #bba1ce;
+}
+.life-theme .profile small {
+  color: #785d8c;
+}
+.life-theme .profile > span,
+.life-theme .avatar {
+  background: #493044;
+  color: #e0b2bf;
+}
+.life-theme .topbar {
+  background: #12121bd9;
+  border-color: #282332;
+  height: 64px;
+}
+.life-theme .breadcrumb {
+  color: #7d6c8e;
+}
+.life-theme .breadcrumb span {
+  color: #403548;
+}
+.life-theme .breadcrumb b {
+  color: #bfabce;
+}
+.life-theme .privacy {
+  color: #806c90;
+}
+.life-theme main {
+  padding-top: 30px;
+}
+.life-theme .page-heading h1 {
+  color: #eaddf4;
+}
+.life-theme .page-heading > div > p:last-child {
+  color: #8e799f;
+}
+.life-theme .eyebrow {
+  color: #a489b9;
+}
+.life-theme .dashboard-home > .page-heading {
+  display: none;
+}
+.life-theme .dashboard-home {
+  padding-top: 24px;
+}
+.life-theme .primary {
+  background: #c7afd9;
+  color: #24172f;
+  box-shadow: none;
+  font-weight: 600;
+}
+.life-theme .primary:hover {
+  background: #dac2eb;
+}
+.life-theme .secondary {
+  background: #272033;
+  border-color: #403149;
+  color: #cbb4dc;
+}
+.life-theme .danger {
+  background: #a55365;
+  color: #fff1f3;
+}
+.life-theme .icon:hover {
+  background: #30233c;
+}
+.life-theme .text-button {
+  color: #b99ad0;
+}
+.life-theme .section-kicker {
+  color: #8d70a4;
+}
+.life-theme .month-picker span {
+  color: #ab8dbf;
+}
+.life-theme .stat,
+.life-theme .panel {
+  background: #191622;
+  border-color: #30253b;
+}
+.life-theme .stat > div > span {
+  color: #9780aa;
+}
+.life-theme .stat i {
+  background: #30213f;
+  color: #aa87c7;
+}
+.life-theme .stat > strong {
+  color: #e0c9f0;
+}
+.life-theme .stat > small {
+  color: #826592;
+}
+.life-theme .positive {
+  color: #91ccb2 !important;
+}
+.life-theme .negative {
+  color: #ee9b9c !important;
+}
+.life-theme .panel-title h2 {
+  color: #dac5e9;
+}
+.life-theme .panel-title p {
+  color: #876b9a;
+}
+.life-theme .panel-foot {
+  border-color: #34213f;
+  color: #7f628f;
+}
+.life-theme .panel-foot b {
+  color: #b69bc9;
+}
+.life-theme .chart-grid > div {
+  color: #6c547f;
+}
+.life-theme .chart-grid i {
+  border-color: #35263e;
+}
+.life-theme .income-bar {
+  background: #84bca6;
+}
+.life-theme .expense-bar {
+  background: #ad82cd;
+}
+.life-theme .chart-no-data {
+  background: #20152ceb;
+  border-color: #432951;
+}
+.life-theme .chart-no-data b {
+  color: #c4a6d9;
+}
+.life-theme .chart-no-data span {
+  color: #87649d;
+}
+.life-theme .legend {
+  color: #826996;
+}
+.life-theme .legend i.green {
+  background: #84bca6;
+}
+.life-theme .legend i.pale {
+  background: #ad82cd;
+}
+.life-theme .categories > div > div:first-child {
+  color: #b895ce;
+}
+.life-theme .progress {
+  background: #2e1c39;
+}
+.life-theme .movement:after {
+  background: #33203f;
+}
+.life-theme .movement-icon {
+  background: #3a253a;
+  color: #c991a0;
+}
+.life-theme .movement-icon.income {
+  background: #203b33;
+  color: #85b9a1;
+}
+.life-theme .movement-name b {
+  color: #d0b1e2;
+}
+.life-theme .movement-name small {
+  color: #88639f;
+}
+.life-theme .movement > strong {
+  color: #d8b9ea;
+}
+.life-theme .task-row {
+  border-color: #352040;
+}
+.life-theme .checkbox {
+  border-color: #69477e;
+  background: #291a34;
+  color: #c8a5df;
+}
+.life-theme .done .checkbox {
+  background: #80539a;
+  border-color: #9d70b5;
+}
+.life-theme .task-content b {
+  color: #cda9e3;
+}
+.life-theme .task-content small {
+  color: #856296;
+}
+.life-theme .task-content small.overdue {
+  color: #da9b8f;
+}
+.life-theme .done .task-content b {
+  color: #775488;
+}
+.life-theme .subtle {
+  color: #6f4d83;
+}
+.life-theme .priority.alta {
+  background: #582d333d;
+  color: #dba48a;
+}
+.life-theme .priority.media {
+  background: #4d3a5a6b;
+  color: #bda3d0;
+}
+.life-theme .priority.baja {
+  background: #2846384f;
+  color: #96b8a3;
+}
+.life-theme .task-summary {
+  background: #1d1529;
+  border-color: #392445;
+}
+.life-theme .summary-icon {
+  background: #3e254d;
+  color: #b58bcd;
+}
+.life-theme .summary-icon.light {
+  background: #291c36;
+  color: #846095;
+}
+.life-theme .task-summary-note {
+  color: #694278;
+}
+.life-theme .task-summary > div > div > span {
+  color: #88639a;
+}
+.life-theme .task-summary b {
+  color: #cfa5e7;
+}
+.life-theme .task-toolbar {
+  border-color: #392047;
+}
+.life-theme .tabs {
+  border-color: #3c214a;
+}
+.life-theme .tabs button {
+  color: #87609d;
+}
+.life-theme .tabs button.active {
+  color: #d1a2e9;
+  border-color: #b986d4;
+}
+.life-theme select {
+  background: #25172f;
+  border-color: #4e2c60;
+  color: #bf94d6;
+}
+.life-theme .search {
+  background: #25172e;
+  border-color: #472a57;
+  color: #9766b0;
+}
+.life-theme .search input {
+  color: #c49ada;
+}
+.life-theme .search input::placeholder {
+  color: #6f4587;
+}
+.life-theme .empty {
+  color: #7f5397;
+}
+.life-theme .empty svg {
+  color: #88609e;
+}
+.life-theme .empty b {
+  color: #b587cc;
+}
+.life-theme .empty p {
+  color: #805794;
+}
+.life-theme .source-notice {
+  background: #26192f;
+  border-color: #472954;
+  color: #9f76b5;
+}
+.life-theme .status-dot {
+  background: #c49c7f;
+}
+.life-theme .pill {
+  background: #2d1b38;
+  color: #855f9e;
+}
+.life-theme .pill.open {
+  background: #243c32;
+  color: #91baa2;
+}
+.life-theme .pill.amber {
+  background: #4b312c;
+  color: #d4a17f;
+}
+.life-theme table th {
+  background: #21142c;
+  color: #8c5ea6;
+  border-color: #392045;
+}
+.life-theme table td {
+  color: #b182cc;
+  border-color: #352040;
+}
+.life-theme .asset-name b {
+  color: #d4ace9;
+}
+.life-theme .a0 {
+  background: #1e3935;
+  color: #87b8b1;
+}
+.life-theme .a1 {
+  background: #243438;
+  color: #91b3bf;
+}
+.life-theme .a2 {
+  background: #4c2b3d;
+  color: #d391af;
+}
+.life-theme .donut {
+  background: #805b9b;
+}
+.life-theme .donut > div {
+  background: #191622;
+}
+.life-theme .donut b {
+  color: #caa2df;
+}
+.life-theme .donut small,
+.life-theme .allocation > div > span {
+  color: #9064a7;
+}
+.life-theme .allocation p {
+  color: #cfa6e5;
+}
+.life-theme .legend-dot {
+  background: #ad84ca;
+}
+.life-theme .method h3 {
+  color: #c99ee0;
+}
+.life-theme .method p {
+  color: #9470a8;
+}
+.life-theme .method > svg {
+  color: #ad80c2;
+}
+.life-theme .connection-heading h2 {
+  color: #d1a6e4;
+}
+.life-theme .connection-heading p {
+  color: #8e66a3;
+}
+.life-theme .excel-logo {
+  background: #284336;
+  color: #97c4a6;
+}
+.life-theme .connection-stats {
+  background: #21142b;
+  border-color: #392044;
+}
+.life-theme .connection-stats small {
+  color: #8b5ba1;
+}
+.life-theme .connection-stats b {
+  color: #c291d7;
+}
+.life-theme .connection-body h3 {
+  color: #c99ddd;
+}
+.life-theme .connection-body > p,
+.life-theme .steps p {
+  color: #9872ab;
+}
+.life-theme .steps b {
+  color: #c197d6;
+}
+.life-theme .steps > div > span {
+  background: #3e254c;
+  color: #b685cf;
+}
+.life-theme .info-box {
+  border-color: #594030;
+  background: #38271f;
+  color: #bd9b78;
+}
+.life-theme .sync-strip {
+  border-color: #4c2a5c;
+  background: #21142b;
+}
+.life-theme .sync-strip p {
+  color: #9262a9;
+}
+.life-theme .file-icon {
+  background: #244033;
+  color: #92bca0;
+}
+.life-theme footer {
+  border-color: #32203e;
+  color: #775189;
+}
+.life-theme .footer-brand {
+  color: #986aad;
+}
+.life-theme .error-banner {
+  background: #4d2538;
+  border-color: #774052;
+  color: #f1b1b7;
+}
+.life-theme .loading {
+  color: #9d71b7;
+}
+.life-theme .modal {
+  background: #211529;
+  border-color: #543060;
+  box-shadow: 0 25px 90px #0006;
+}
+.life-theme .modal-backdrop {
+  background: #09060c99;
+}
+.life-theme .modal-heading h2 {
+  color: #dec0ef;
+}
+.life-theme .modal form > label,
+.life-theme .form-row > label {
+  color: #ad86be;
+}
+.life-theme .modal input:not([type="radio"]),
+.life-theme .modal select {
+  background: #2c1b36;
+  border-color: #553264;
+  color: #e0bff1;
+}
+.life-theme .modal input::placeholder {
+  color: #79538d;
+}
+.life-theme .modal-actions {
+  border-color: #4c2c59;
+}
+.life-theme .type-choices {
+  background: #2c1b37;
+}
+.life-theme .type-choices label {
+  color: #a174b8;
+}
+.life-theme .type-choices label.selected {
+  background: #51305f;
+  color: #e5bbfa;
+}
+.life-theme .delete-confirm,
+.life-theme .form-help {
+  color: #c095c1;
+}
+.life-theme .toast {
+  background: #62436f;
+  color: #fff0fb;
+}
+.life-theme .form-row small {
+  color: #856092;
+}
+.life-theme .modal-actions .delete {
+  color: #c9899b;
+}
+.life-theme .mobile-nav {
+  background: #17101fef;
+  border-color: #432550;
+}
+.life-theme .mobile-nav button {
+  color: #8d639f;
+}
+.life-theme .mobile-nav button.active {
+  background: #40264e;
+  color: #d6a4ee;
+}
+.life-theme .gym-home {
+  background: linear-gradient(110deg, #2a1b36, #20172b);
+  border-color: #4a2e58;
+}
+.life-theme .gym-home-symbol {
+  background: #422650;
+  color: #b58bcb;
+}
+.life-theme .gym-home h3 {
+  color: #cfa3e7;
+}
+.life-theme .gym-home p {
+  color: #8d639e;
+}
+.life-theme .gym-welcome {
+  background: radial-gradient(ellipse at 100% 0, #3d2848, transparent), #25182f;
+  border-color: #4a2e57;
+}
+.life-theme .gym-welcome h2 {
+  color: #ddbcf0;
+}
+.life-theme .gym-welcome > div > p:not(.eyebrow) {
+  color: #a177b5;
+}
+.life-theme .gym-welcome-art > div {
+  background: #392245;
+  border-color: #5e3b6c;
+  outline-color: #422a4e;
+  color: #b28ac7;
+}
+.life-theme .gym-welcome-art > span {
+  color: #9164a5;
+}
+.life-theme .gym-section-heading h2,
+.life-theme .gym-routine-card h3,
+.life-theme .gym-empty-routine h3,
+.life-theme .gym-empty h3 {
+  color: #d2a8e8;
+}
+.life-theme .gym-section-heading p,
+.life-theme .gym-empty-routine p,
+.life-theme .gym-empty p,
+.life-theme .gym-routine-card > p {
+  color: #9870ad;
+}
+.life-theme .gym-empty-icon {
+  background: #3d264b;
+  color: #a97bc2;
+}
+.life-theme .gym-routine-card li {
+  color: #b28cca;
+  border-color: #3b2447;
+}
+.life-theme .gym-routine-card li small {
+  color: #9064a6;
+}
+.life-theme .gym-message {
+  background: #392445;
+  border-color: #5d3a70;
+  color: #c9a1dd;
+}
+.life-theme .gym-session-head h2 {
+  color: #dfb9f3;
+}
+.life-theme .gym-session-tag,
+.life-theme .gym-session-head p {
+  color: #a274b9;
+}
+.life-theme .gym-session-progress {
+  background: #3c244a;
+}
+.life-theme .gym-session-progress i {
+  background: #aa80c4;
+}
+.life-theme .gym label {
+  color: #b58dcc;
+}
+.life-theme .gym input,
+.life-theme .gym textarea {
+  background: #281b33;
+  border-color: #50325f;
+  color: #d8b8eb;
+}
+.life-theme .gym input::placeholder,
+.life-theme .gym textarea::placeholder {
+  color: #79558d;
+}
+.life-theme .gym-session-help {
+  color: #9268a4;
+}
+.life-theme .gym-rest {
+  background: #32233f;
+  border-color: #5d3d6e;
+}
+.life-theme .gym-rest > div > span,
+.life-theme .gym-rest > div > svg,
+.life-theme .gym-rest .icon {
+  color: #ad86c5;
+}
+.life-theme .gym-rest b {
+  color: #e0b8f8;
+}
+.life-theme .gym-exercise-number {
+  background: #432950;
+  color: #b78dce;
+}
+.life-theme .gym-exercise-head input {
+  background: transparent;
+  color: #d2b0e7;
+  border-color: transparent;
+}
+.life-theme .gym-rest-select {
+  color: #956ba9 !important;
+}
+.life-theme .gym-rest-select select {
+  color: #ac7ec5;
+  background: none;
+}
+.life-theme .gym-set-labels {
+  color: #9468aa;
+}
+.life-theme .gym-set {
+  border-color: #3c2448;
+}
+.life-theme .gym-set-n,
+.life-theme .gym-previous {
+  color: #946da8;
+}
+.life-theme .gym-set input {
+  background: #2a1b36;
+  border-color: #4d2f5c;
+  color: #d3b0e8;
+}
+.life-theme .gym-set-check {
+  background: #2c1d38;
+  border-color: #553367;
+  color: #76508f;
+}
+.life-theme .gym-set.is-done input {
+  background: #38244a;
+  border-color: #72508a;
+  color: #d5b1ef;
+}
+.life-theme .gym-set.is-done .gym-set-check {
+  background: #81569e;
+  border-color: #a276be;
+  color: #f4e3ff;
+}
+.life-theme .gym-add-exercise {
+  background: #2b1d37;
+  border-color: #6b4383;
+  color: #b18acb;
+}
+.life-theme .gym-session-save {
+  border-color: #3b2349;
+}
+.life-theme .gym-session-save p,
+.life-theme .gym-session-save b {
+  color: #9c73b2;
+}
+.life-theme .gym-progress-stats > div {
+  background: #21162b;
+  border-color: #422a50;
+}
+.life-theme .gym-progress-stats span,
+.life-theme .gym-progress-stats small {
+  color: #a67dbb;
+}
+.life-theme .gym-progress-stats b {
+  color: #cda3e6;
+}
+.life-theme .gym-chart text {
+  fill: #946ca9;
+}
+.life-theme .gym-chart line {
+  stroke: #483054;
+}
+.life-theme .gym-chart polygon {
+  fill: #392344;
+}
+.life-theme .gym-chart polyline {
+  stroke: #b087ce;
+}
+.life-theme .gym-chart circle {
+  fill: #c4a0dd;
+  stroke: #25152f;
+}
+.life-theme .gym-chart p {
+  color: #8e659f;
+}
+.life-theme .gym-history-date {
+  background: #40294c;
+  color: #b68ccd;
+}
+.life-theme .gym-history-title h3 {
+  color: #d0a8e6;
+}
+.life-theme .gym-history-title p,
+.life-theme .gym-history-volume small {
+  color: #9670aa;
+}
+.life-theme .gym-history-volume b {
+  color: #c49bda;
+}
+.life-theme .gym-history-head > .icon {
+  color: #926aa6;
+}
+.life-theme .gym-history-detail {
+  border-color: #3c244b;
+}
+.life-theme .gym-history-detail > div {
+  border-color: #422951;
+}
+.life-theme .gym-history-detail b {
+  color: #c69dda;
+}
+.life-theme .gym-history-detail > div > div > span {
+  background: #3b244a;
+  color: #bd92d3;
+}
+.life-theme .gym-history-notes {
+  color: #a078b5;
+}
+.life-theme .gym-routine-help {
+  color: #9465a9;
+}
+.life-theme .gym-routine-exercise {
+  background: #291a35;
+  border-color: #4c2e5c;
+}
+.life-theme .gym-routine-exercise > div:first-child {
+  color: #9e72b4;
+}
+.life-theme .gym-routine-modal .modal-actions {
+  background: #211529;
+}
+.life-theme .gym-form-message {
+  color: #d2a08a;
+}
+.life-theme .gym-live-dot {
+  background: #b68bd2;
+}
+@media (max-width: 1200px) {
+  .life-theme .sidebar {
+    width: 200px;
+  }
+  .life-theme .main-wrap {
+    margin-left: 200px;
+  }
+  .life-theme main {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  .life-theme .topbar {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 761px) {
+  .life-theme .sidebar {
+    width: 180px;
+  }
+  .life-theme .main-wrap {
+    margin-left: 180px;
+  }
+  .life-theme main {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (max-width: 760px) {
+  .life-theme .main-wrap {
+    margin-left: 0;
+  }
+  .life-theme main {
+    padding: 25px 17px 85px;
+  }
+  .life-theme .dashboard-home {
+    padding-top: 20px;
+  }
+  .life-theme .topbar {
+    height: 56px;
+    padding: 0 20px;
+  }
+  .life-theme .breadcrumb {
+    font-size: 10px;
+  }
+  .life-theme .privacy {
+    font-size: 9px;
+  }
+  .life-theme .gym-routine-modal .modal-actions {
+    background: #211529;
+  }
+}
